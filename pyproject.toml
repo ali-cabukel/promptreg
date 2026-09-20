@@ -40,3 +40,7 @@ Issues = "https://github.com/yourusername/promptreg/issues"
 
 [tool.setuptools.packages.find]
 include = ["promptreg*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
